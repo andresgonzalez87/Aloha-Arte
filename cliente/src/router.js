@@ -8,6 +8,7 @@ import ContactComponent from './components/ContactComponent.vue';
 import DepartamentsComponent from './components/DepartamentsComponent.vue';
 import HousesComponent from './components/HousesComponent.vue';
 import OfficesComponent from './components/OfficesComponent.vue';
+import AdministrationComponent from './components/AdministrationComponent.vue';
 
 
 const routes = [
@@ -20,6 +21,7 @@ const routes = [
   { path: '/departamentos', component: DepartamentsComponent },
   { path: '/casas', component: HousesComponent },
   { path: '/oficinas', component: OfficesComponent },
+  { path: '/administracion', component: AdministrationComponent },
 ];
 
 const router = createRouter({

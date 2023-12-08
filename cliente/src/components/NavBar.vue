@@ -45,6 +45,11 @@
               Contacto
             </router-link>
           </li>
+          <li>
+            <router-link to="/administracion" class="nav-link">
+              Administración
+            </router-link>
+          </li>
         </ul>
       </nav>
     </header>
